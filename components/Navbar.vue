@@ -1,0 +1,19 @@
+<template>
+  <div class="navbar shadow-md w-full p-2 flex justify-between align-center bg-red-600">
+    <div class="brand">
+      <p>DESMOS CORP</p>
+    </div>
+    <div class="corp-links w-1/5 flex justify-around">
+      <nuxt-link to="#">Values</nuxt-link>
+      <nuxt-link to="#">Games</nuxt-link>
+      <nuxt-link to="#">News</nuxt-link>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style>
+</style>
