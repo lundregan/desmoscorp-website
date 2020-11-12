@@ -6,7 +6,7 @@
 
     <NuxtLink
       :to="{ name: 'games-slug', params: { slug: game.slug } }"
-      class="flex w-1/2 self-center bg-gray-700 m-12"
+      class="flex w-1/2 self-center bg-gray-800 m-12"
       v-for="game in games"
       :key="game.slug"
     >
@@ -14,7 +14,7 @@
         <img :src="game.img" alt="" />
       </div>
       <div class="pl-4 text-white">
-        <p class="text-4xl">{{ game.name }}</p>
+        <p class="text-4xl text-red-600 font-semibold">{{ game.name }}</p>
         <p class="mt-4">{{ game.description }}</p>
         <p class="mt-6">{{ game.released }}</p>
       </div>
