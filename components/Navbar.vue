@@ -4,6 +4,7 @@
       <p>DESMOS CORP</p>
     </div>
     <div class="corp-links w-1/5 flex justify-around">
+    <nuxt-link to="/">Home</nuxt-link>
       <nuxt-link to="/stances">Stances</nuxt-link>
       <nuxt-link to="/games">Games</nuxt-link>
       <nuxt-link to="#">News</nuxt-link>
