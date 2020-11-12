@@ -7,7 +7,7 @@
     <nuxt-link to="/">Home</nuxt-link>
       <nuxt-link to="/stances">Stances</nuxt-link>
       <nuxt-link to="/games">Games</nuxt-link>
-      <nuxt-link to="#">News</nuxt-link>
+      <nuxt-link to="/news">News</nuxt-link>
     </div>
   </div>
 </template>
