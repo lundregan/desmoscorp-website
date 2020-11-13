@@ -1,5 +1,5 @@
 <template>
-  <div class="layout h-screen">
+  <div class="layout">
     <Navbar />
 
     <Nuxt />

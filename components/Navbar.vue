@@ -53,6 +53,9 @@ export default {
 <style lang="sass">
 .navbar
   background: #212121
+  z-index: 1
+  position: absolute
+  top: 0
 
 .grows
   animation: grow-back 0.2s forwards linear, link-deselected 2s forwards

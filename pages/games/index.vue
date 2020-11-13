@@ -1,6 +1,6 @@
 <template>
-  <div class="p-16 flex justify-center flex-wrap flex-col mt-32">
-    <p class="text-center text-6xl mx-64 text-red-600 mb-16">
+  <div class="flex justify-center flex-wrap flex-col my-32">
+    <p class="text-center text-6xl mx-64 text-red-600 mb-16 font-semibold">
       Our Games
     </p>
 

@@ -1,8 +1,22 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="text-6xl font-semibold text-red-700">Desmos Corporation</h1>
-      <h2 class="text-xl text-red-500">No Expense Innovation</h2>
+  <div class="home h-screen w-full">
+    <div class="intro relative h-full">
+      <img
+        src="~/assets/images/bg-arcade.jpg"
+        alt=""
+        class="intro-image w-full h-full opacity-75 shadow-md"
+      />
+      <div class="cent">
+        <h1 class="text-6xl font-semibold text-red-600">Desmos Corporation</h1>
+        <h2 class="text-xl text-white">A Mock Project by <a href="lundregan.com" class="text-blue-600">Ethan Lundregan</a></h2>
+        <nuxt-link to="/games"
+          ><button
+            class="view-games bg-red-600 text-white p-8 shadow-xl mt-32 grow font-bold font-xl"
+          >
+            View Out Games
+          </button></nuxt-link
+        >
+      </div>
     </div>
   </div>
 </template>
@@ -11,40 +25,37 @@
 export default {};
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="sass">
+.intro, .test
+  position: relative
+  text-align: center
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+.intro-image, .test-image
+  filter: sepia(50%), contrast(180%)
+  object-fit: cover
+  object-position: bottom
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+.cent
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
 
-.links {
-  padding-top: 15px;
-}
+.view-games
+  animation: grow-back 0.2s forwards
+
+.view-games:hover
+  animation: grow 0.1s forwards
+
+@keyframes grow
+  from
+    transform: scale(1.0)
+  to
+    transform: scale(1.05)
+
+@keyframes grow-back
+  from
+    transform: scale(1.05)
+  to
+    transform: scale(1)    
 </style>
