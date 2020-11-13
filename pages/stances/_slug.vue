@@ -1,11 +1,11 @@
 <template>
   <div class="flex justify-center">
-    <article class="flex justify-center my-4 mx-2 sm:w-1/2 p-6 h-full rounded-xl bg-gray-800 text-white">
+    <article class="flex justify-center my-4 mx-2 sm:w-1/2 p-6 h-full  text-white shadow-xl mt-32">
     <div class="flex-col">
-      <StancePrevNext :prev="prev" :next="next" class="mb-16"/>
+      <StancePrevNext :prev="prev" :next="next" class="mb-16 other-stances-links"/>
 
       <div class="self-center text-center">
-        <fa :icon="[stance.iconType, stance.icon]" class="text-6xl"/>
+        <fa :icon="[stance.iconType, stance.icon]" class="text-6xl text-red-600"/>
       </div>
 
       <nuxt-content :document="stance" class="" />
@@ -38,6 +38,12 @@ export default {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700)
 @import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic)
 
+article
+  background: #212121
+
+.other-stances-links
+  border-bottom: 1px solid #313131
+
 .nuxt-content
   line-height: 1.85
   font-family: roboto, sans-serif
@@ -62,6 +68,7 @@ export default {
     font-weight: inherit
     line-height: 1.42
     font-family: Arimo, Helvetica, sans-serif
+    color: #e53e3e
 
   h1, h2, h3
     margin-bottom: 1.15rem
@@ -70,7 +77,7 @@ export default {
   
   h1
     margin-top: 0
-    border-bottom: 2px solid #fafafa
+    border-bottom: 2px solid #e53e3e
     font-size: 3.998rem
   
   h2
