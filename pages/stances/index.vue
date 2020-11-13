@@ -37,7 +37,7 @@
   }
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 
 .stance
   background: #212121

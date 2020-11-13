@@ -1,8 +1,10 @@
 <template>
   <div class="flex flex-col">
+    <p class="text-center text-red-600 text-6xl my-32">NEWS</p>
+
     <NuxtLink
       :to="{ name: 'news-slug', params: { slug: article.slug } }"
-      class="flex w-1/4 self-center bg-gray-800 m-12 p-8 text-center rounded-xl"
+      class="news-item flex w-1/4 self-center m-12 p-8 text-center"
       v-for="article in news"
       :key="article.slug"
     >
@@ -29,5 +31,23 @@ export default {
 };
 </script>
 
-<style>
+<style lang="sass" scoped>
+.news-item
+  background: #212121
+  animation: grow-back 0.6s
+
+.news-item:hover
+  animation: grow 0.5s forwards
+
+@keyframes grow
+  from
+    transform: scale(1)
+  to
+    transform: scale(1.32)
+
+@keyframes grow-back
+  from
+    transform: scale(1.32)
+  to
+    transform: scale(1)
 </style>

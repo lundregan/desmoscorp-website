@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 .game-link-div
   background: #212121
   animation: grow-back 0.5s forwards
