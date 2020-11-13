@@ -2,6 +2,12 @@ export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
+  target: 'server',
+  serve: {
+    port: 5002,
+    host: '0.0.0.0',
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'desmoscorp-website',
