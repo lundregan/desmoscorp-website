@@ -18,6 +18,6 @@ We want our products to be as accessible as we can make them.
 We will make sure to add accessible features whenever we can
 
 #### Accessible Features
-- Colorblind Modes
+- Color Blind Modes
 - Rebinding Keys
 - Accessible Difficulty Mode

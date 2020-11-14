@@ -19,7 +19,7 @@ DRM allows creators to protect themselves from piracy.
 
 ### Our Policy
 
-We think DRM is fair and helps us make sure the hardwork we put into games.
+We think DRM is fair and helps us make sure the hard work we put into games.
 
 Our games are published through Steam which is a DRM platform. It handles licensing and account activation of games for us.
 
@@ -34,7 +34,7 @@ For example a battle-royale style game, with no single-player features. This wou
 
 ### Delisting
 
-If our games are ever removed from a DRM platforma and are no longer avaliable for sale.
+If our games are ever removed from a DRM platform and are no longer available for sale.
 We will release a DRM free version.
 
-We would hate for a fan not to be able to play their favorite gmae of ours!
+We would hate for a fan not to be able to play their favorite game of ours!
