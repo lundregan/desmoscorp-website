@@ -3,7 +3,7 @@ export default {
   ssr: false,
 
   target: 'server',
-  serve: {
+  server: {
     port: 5002,
     host: '0.0.0.0',
   },
