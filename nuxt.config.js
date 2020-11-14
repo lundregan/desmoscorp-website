@@ -2,7 +2,7 @@ export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
-  target: 'server',
+  target: 'static',
   server: {
     port: 5002,
     host: '0.0.0.0',
