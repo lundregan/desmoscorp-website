@@ -18,9 +18,7 @@ html
   box-sizing: border-box
   background: #313131
 
-*
-*::before
-*::after
+*, *::before, *::after
   box-sizing: border-box
   margin: 0
 
