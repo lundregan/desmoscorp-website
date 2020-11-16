@@ -4,7 +4,7 @@
 
     <NuxtLink
       :to="{ name: 'news-slug', params: { slug: article.slug } }"
-      class="news-item flex w-1/4 self-center m-12 p-8 text-center"
+      class="news-item flex w-1/4 self-center m-12 p-8 text-center shadow-md"
       v-for="article in news"
       :key="article.slug"
     >
