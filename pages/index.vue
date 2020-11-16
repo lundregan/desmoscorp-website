@@ -8,7 +8,7 @@
       />
       <div class="cent">
         <h1 class="text-6xl font-semibold text-red-600">Desmos Corporation</h1>
-        <h2 class="text-xl text-white">A Mock Project by <a href="lundregan.com" class="text-blue-600">Ethan Lundregan</a></h2>
+        <h2 class="text-xl text-white">A Mock Project by <a href="http://www.lundregan.com" class="text-blue-600">Ethan Lundregan</a></h2>
         <nuxt-link to="/games"
           ><button
             class="view-games bg-red-600 text-white p-8 shadow-xl mt-32 grow font-bold font-xl"
