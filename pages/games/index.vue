@@ -8,7 +8,7 @@
       :to="{ name: 'games-slug', params: { slug: game.slug } }"
       v-for="game in games"
       :key="game.slug"
-      class="game-link-div flex w-1/2 self-center mt-16"
+      class="game-link-div flex w-1/2 self-center mt-16 shadow-md"
     >
       <div class="h-auto w-64">
         <img :src="game.img" alt="" />
